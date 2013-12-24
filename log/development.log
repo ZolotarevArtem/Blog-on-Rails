@@ -1,0 +1,1428 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-23 01:24:16 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/railties-4.0.1/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 95ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-23 01:31:11 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/railties-4.0.1/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-23 01:31:11 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/railties-4.0.1/lib/rails/templates/rails/welcome/index.html.erb (0.2ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2013-12-23 01:31:17 +0700
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.2ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (38.1ms)
+
+
+Started GET "/welcom" for 127.0.0.1 at 2013-12-23 01:31:25 +0700
+
+ActionController::RoutingError (No route matches [GET] "/welcom"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (39.9ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (59.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-12-23 01:31:31 +0700
+
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (16.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-23 01:32:03 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/railties-4.0.1/lib/rails/templates/rails/welcome/index.html.erb (0.2ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2013-12-23 01:33:00 +0700
+
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (16.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-23 01:36:23 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 818ms (Views: 817.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-23 01:36:24 +0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-12-23 01:36:24 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-23 01:36:24 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-23 01:36:24 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-23 01:36:24 +0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-12-23 01:36:24 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-23 01:36:24 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-23 01:44:27 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-23 01:44:27 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-23 01:44:27 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-23 01:44:27 +0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-12-23 01:44:27 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-23 01:44:27 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-23 01:44:27 +0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-12-23 01:44:27 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-23 01:44:29 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-23 01:44:29 +0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-12-23 01:44:29 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-23 01:44:29 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-23 01:44:29 +0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-12-23 01:44:29 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-23 01:44:29 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-23 01:44:29 +0700
+
+
+Started GET "/new" for 127.0.0.1 at 2013-12-23 01:44:33 +0700
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-23 01:44:40 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-23 01:44:40 +0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-12-23 01:44:40 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-23 01:44:40 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-23 01:44:40 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-23 01:44:40 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-23 01:44:40 +0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-12-23 01:44:40 +0700
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-23 01:45:10 +0700
+
+ActionController::RoutingError (uninitialized constant PostsController):
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.1) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__2069921932495110579__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (28.3ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 01:45:13 +0700
+
+ActionController::RoutingError (uninitialized constant PostsController):
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.1) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__2069921932495110579__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (26.5ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 01:46:25 +0700
+
+ActionController::RoutingError (uninitialized constant PostsController):
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.1) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__2069921932495110579__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (25.5ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 01:48:19 +0700
+
+AbstractController::ActionNotFound (The action 'new' could not be found for PostsController):
+  actionpack (4.0.1) lib/abstract_controller/base.rb:131:in `process'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.1) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__2069921932495110579__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 01:49:17 +0700
+Processing by PostsController#new as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template posts/new, application/new with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/rebelition/Blog/app/views"
+):
+  actionpack (4.0.1) lib/action_view/path_set.rb:46:in `find'
+  actionpack (4.0.1) lib/action_view/lookup_context.rb:115:in `find'
+  actionpack (4.0.1) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionpack (4.0.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.1) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.1) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.1) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:403:in `_run__3917035273398916446__process_action__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.1) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.1) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__2069921932495110579__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 01:53:03 +0700
+Processing by PostsController#new as HTML
+  Rendered posts/new.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <form class="form-horizontal" action="/posts" method="post">
+    2:   <h2 class="form-signin-heading">Новый пост</h2>
+    3:   <label>Заголовок:</label><br />
+    4:   <input name="post[title]" type="text" value="<%= @post.title %>" required /><br />
+    5:   <label>Текст:</label><br />
+    6:   <textarea name="post[body]" rows="7"><%= @post.body %></textarea><hr>
+    7:   <input type="hidden" name="post[user_id]" type="text" value="<%= session[:user][:id] %>" />  
+  app/views/posts/new.erb:4:in `_app_views_posts_new_erb___1284482723207495357_70200976086300'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.9ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 01:53:44 +0700
+Processing by PostsController#new as HTML
+  Rendered posts/new.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <form class="form-horizontal" action="/posts" method="post">
+    2:   <h2 class="form-signin-heading">Новый пост</h2>
+    3:   <label>Заголовок:</label><br />
+    4:   <!--input name="post[title]" type="text" value="<%= @post.title %>" required /><br />
+    5:   <label>Текст:</label><br />
+    6:   <textarea name="post[body]" rows="7"><%= @post.body %></textarea><hr>
+    7:   <input type="hidden" name="post[user_id]" type="text" value="<%= session[:user][:id] %>" /-->  
+  app/views/posts/new.erb:4:in `_app_views_posts_new_erb___1284482723207495357_70200838495680'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.5ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 01:53:45 +0700
+Processing by PostsController#new as HTML
+  Rendered posts/new.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <form class="form-horizontal" action="/posts" method="post">
+    2:   <h2 class="form-signin-heading">Новый пост</h2>
+    3:   <label>Заголовок:</label><br />
+    4:   <!--input name="post[title]" type="text" value="<%= @post.title %>" required /><br />
+    5:   <label>Текст:</label><br />
+    6:   <textarea name="post[body]" rows="7"><%= @post.body %></textarea><hr>
+    7:   <input type="hidden" name="post[user_id]" type="text" value="<%= session[:user][:id] %>" /-->  
+  app/views/posts/new.erb:4:in `_app_views_posts_new_erb___1284482723207495357_70200838495680'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.8ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 02:06:49 +0700
+Processing by PostsController#new as HTML
+  Rendered posts/new.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <form class="form-horizontal" action="/posts" method="post">
+    2:   <h2 class="form-signin-heading">Новый пост</h2>
+    3:   <label>Заголовок:</label><br />
+    4:   <!--input name="post[title]" type="text" value="<%= @post.title %>" required /><br />
+    5:   <label>Текст:</label><br />
+    6:   <textarea name="post[body]" rows="7"><%= @post.body %></textarea><hr>
+    7:   <input type="hidden" name="post[user_id]" type="text" value="<%= session[:user][:id] %>" /-->  
+  app/views/posts/new.erb:4:in `_app_views_posts_new_erb___1284482723207495357_70200974902380'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (52.8ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 02:06:50 +0700
+Processing by PostsController#new as HTML
+  Rendered posts/new.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <form class="form-horizontal" action="/posts" method="post">
+    2:   <h2 class="form-signin-heading">Новый пост</h2>
+    3:   <label>Заголовок:</label><br />
+    4:   <!--input name="post[title]" type="text" value="<%= @post.title %>" required /><br />
+    5:   <label>Текст:</label><br />
+    6:   <textarea name="post[body]" rows="7"><%= @post.body %></textarea><hr>
+    7:   <input type="hidden" name="post[user_id]" type="text" value="<%= session[:user][:id] %>" /-->  
+  app/views/posts/new.erb:4:in `_app_views_posts_new_erb___1284482723207495357_70200974902380'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.5ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 02:06:50 +0700
+Processing by PostsController#new as HTML
+  Rendered posts/new.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <form class="form-horizontal" action="/posts" method="post">
+    2:   <h2 class="form-signin-heading">Новый пост</h2>
+    3:   <label>Заголовок:</label><br />
+    4:   <!--input name="post[title]" type="text" value="<%= @post.title %>" required /><br />
+    5:   <label>Текст:</label><br />
+    6:   <textarea name="post[body]" rows="7"><%= @post.body %></textarea><hr>
+    7:   <input type="hidden" name="post[user_id]" type="text" value="<%= session[:user][:id] %>" /-->  
+  app/views/posts/new.erb:4:in `_app_views_posts_new_erb___1284482723207495357_70200974902380'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.7ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 02:06:51 +0700
+Processing by PostsController#new as HTML
+  Rendered posts/new.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <form class="form-horizontal" action="/posts" method="post">
+    2:   <h2 class="form-signin-heading">Новый пост</h2>
+    3:   <label>Заголовок:</label><br />
+    4:   <!--input name="post[title]" type="text" value="<%= @post.title %>" required /><br />
+    5:   <label>Текст:</label><br />
+    6:   <textarea name="post[body]" rows="7"><%= @post.body %></textarea><hr>
+    7:   <input type="hidden" name="post[user_id]" type="text" value="<%= session[:user][:id] %>" /-->  
+  app/views/posts/new.erb:4:in `_app_views_posts_new_erb___1284482723207495357_70200974902380'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.3ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 02:07:26 +0700
+Processing by PostsController#new as HTML
+  Rendered posts/new.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <form class="form-horizontal" action="/posts" method="post">
+    2:   <h2 class="form-signin-heading">Новый пост</h2>
+    3:   <label>Заголовок:</label><br />
+    4:   <!--input name="post[title]" type="text" value="<%= @post.title %>" required /><br />
+    5:   <label>Текст:</label><br />
+    6:   <textarea name="post[body]" rows="7"><%= @post.body %></textarea><hr>
+    7:   <input type="hidden" name="post[user_id]" type="text" value="<%= session[:user][:id] %>" /-->  
+  app/views/posts/new.erb:4:in `_app_views_posts_new_erb___1284482723207495357_70200977230260'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.9ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 02:07:59 +0700
+Processing by PostsController#new as HTML
+  Rendered posts/new.erb within layouts/application (1.1ms)
+Completed 200 OK in 219ms (Views: 216.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-23 02:07:59 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-23 02:07:59 +0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-23 02:07:59 +0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-23 02:07:59 +0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-12-23 02:07:59 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-23 02:07:59 +0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-12-23 02:07:59 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-23 02:07:59 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-23 02:07:59 +0700
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-23 02:08:04 +0700
+
+AbstractController::ActionNotFound (The action 'create' could not be found for PostsController):
+  actionpack (4.0.1) lib/abstract_controller/base.rb:131:in `process'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.1) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__2069921932495110579__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 02:09:47 +0700
+Processing by PostsController#new as HTML
+ERROR: compiling _app_views_posts_new_erb___1284482723207495357_70200838434540 RAISED /home/rebelition/Blog/app/views/posts/new.erb:6: syntax error, unexpected '<'
+  <label>Текст:</label><br />
+   ^
+/home/rebelition/Blog/app/views/posts/new.erb:7: syntax error, unexpected '<'
+  <textarea name="post[body]" ro...
+   ^
+/home/rebelition/Blog/app/views/posts/new.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+...textarea name="post[body]" rows="7">';@output_buffer.append=...
+...                               ^
+/home/rebelition/Blog/app/views/posts/new.erb:8: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/rebelition/Blog/app/views/posts/new.erb:9: syntax error, unexpected tIDENTIFIER, expecting ')'
+...btn btn-large btn-primary" type="submit">Создать по...
+...                               ^
+/home/rebelition/Blog/app/views/posts/new.erb:9: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...submit">Создать пост</button>
+...                               ^
+/home/rebelition/Blog/app/views/posts/new.erb:10: unknown regexp options - fr
+/home/rebelition/Blog/app/views/posts/new.erb:11: unterminated string meets end of file
+/home/rebelition/Blog/app/views/posts/new.erb:11: syntax error, unexpected end-of-input, expecting ')'
+Function body:           def _app_views_posts_new_erb___1284482723207495357_70200838434540(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "posts/new";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='<form class="form-horizontal" action="/posts" method="post">
+  <h2 class="form-signin-heading">Новый пост</h2>
+  <label>Заголовок:</label><br />
+
+  <!--input name="post[title]" type="text" value="';@output_buffer.append=(# @post.title );@output_buffer.safe_append='" required /><br />
+  <label>Текст:</label><br />
+  <textarea name="post[body]" rows="7">';@output_buffer.append=( @post.body );@output_buffer.safe_append='</textarea><hr>
+  <input type="hidden" name="post[user_id]" type="text" value="';@output_buffer.append=( session[:user][:id] );@output_buffer.safe_append='" /-->  
+  <button class="btn btn-large btn-primary" type="submit">Создать пост</button>
+</form> 
+';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/template.rb:299:in `module_eval'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/template.rb:299:in `compile'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/template.rb:248:in `block in compile!'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/template.rb:236:in `synchronize'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/template.rb:236:in `compile!'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/template.rb:142:in `block in render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/notifications.rb:161:in `instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/template.rb:141:in `render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:23:in `render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:97:in `render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/abstract_controller/base.rb:189:in `process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:403:in `_run__3917035273398916446__process_action__callbacks'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/abstract_controller/base.rb:136:in `process'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:44:in `process'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal.rb:195:in `dispatch'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal.rb:231:in `block in action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `each'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activerecord-4.0.1/lib/active_record/query_cache.rb:36:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activerecord-4.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activerecord-4.0.1/lib/active_record/migration.rb:369:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:373:in `_run__2069921932495110579__call__callbacks'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/railties-4.0.1/lib/rails/engine.rb:511:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/railties-4.0.1/lib/rails/application.rb:97:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered posts/new.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 9ms
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 02:09:50 +0700
+Processing by PostsController#new as HTML
+ERROR: compiling _app_views_posts_new_erb___1284482723207495357_70200838434540 RAISED /home/rebelition/Blog/app/views/posts/new.erb:6: syntax error, unexpected '<'
+  <label>Текст:</label><br />
+   ^
+/home/rebelition/Blog/app/views/posts/new.erb:7: syntax error, unexpected '<'
+  <textarea name="post[body]" ro...
+   ^
+/home/rebelition/Blog/app/views/posts/new.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+...textarea name="post[body]" rows="7">';@output_buffer.append=...
+...                               ^
+/home/rebelition/Blog/app/views/posts/new.erb:8: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/rebelition/Blog/app/views/posts/new.erb:9: syntax error, unexpected tIDENTIFIER, expecting ')'
+...btn btn-large btn-primary" type="submit">Создать по...
+...                               ^
+/home/rebelition/Blog/app/views/posts/new.erb:9: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...submit">Создать пост</button>
+...                               ^
+/home/rebelition/Blog/app/views/posts/new.erb:10: unknown regexp options - fr
+/home/rebelition/Blog/app/views/posts/new.erb:11: unterminated string meets end of file
+/home/rebelition/Blog/app/views/posts/new.erb:11: syntax error, unexpected end-of-input, expecting ')'
+Function body:           def _app_views_posts_new_erb___1284482723207495357_70200838434540(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "posts/new";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='<form class="form-horizontal" action="/posts" method="post">
+  <h2 class="form-signin-heading">Новый пост</h2>
+  <label>Заголовок:</label><br />
+
+  <!--input name="post[title]" type="text" value="';@output_buffer.append=(# @post.title );@output_buffer.safe_append='" required /><br />
+  <label>Текст:</label><br />
+  <textarea name="post[body]" rows="7">';@output_buffer.append=( @post.body );@output_buffer.safe_append='</textarea><hr>
+  <input type="hidden" name="post[user_id]" type="text" value="';@output_buffer.append=( session[:user][:id] );@output_buffer.safe_append='" /-->  
+  <button class="btn btn-large btn-primary" type="submit">Создать пост</button>
+</form> 
+';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/template.rb:299:in `module_eval'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/template.rb:299:in `compile'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/template.rb:248:in `block in compile!'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/template.rb:236:in `synchronize'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/template.rb:236:in `compile!'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/template.rb:142:in `block in render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/notifications.rb:161:in `instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/template.rb:141:in `render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:23:in `render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:97:in `render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/abstract_controller/base.rb:189:in `process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:403:in `_run__3917035273398916446__process_action__callbacks'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/abstract_controller/base.rb:136:in `process'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:44:in `process'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal.rb:195:in `dispatch'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_controller/metal.rb:231:in `block in action'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `each'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activerecord-4.0.1/lib/active_record/query_cache.rb:36:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activerecord-4.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activerecord-4.0.1/lib/active_record/migration.rb:369:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:373:in `_run__2069921932495110579__call__callbacks'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/railties-4.0.1/lib/rails/engine.rb:511:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/railties-4.0.1/lib/rails/application.rb:97:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered posts/new.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 5ms
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 02:10:09 +0700
+Processing by PostsController#new as HTML
+  Rendered posts/new.erb within layouts/application (0.9ms)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-23 02:10:09 +0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-23 02:10:09 +0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-12-23 02:10:09 +0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:09 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:09 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:09 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:09 +0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:09 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:09 +0700
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 02:10:10 +0700
+Processing by PostsController#new as HTML
+  Rendered posts/new.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-23 02:10:10 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:10 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:10 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:10 +0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-12-23 02:10:10 +0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-23 02:10:10 +0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:10 +0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:10 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:10 +0700
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-23 02:10:13 +0700
+Processing by PostsController#new as HTML
+  Rendered posts/new.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-23 02:10:13 +0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-23 02:10:13 +0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-12-23 02:10:13 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:13 +0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:13 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:13 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:13 +0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:13 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-23 02:10:13 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-24 16:45:55 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 357ms (Views: 322.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-24 16:45:56 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-24 16:45:56 +0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-24 16:45:56 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-24 16:45:56 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-24 16:45:56 +0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-12-24 16:45:56 +0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-24 16:45:56 +0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-12-24 16:45:56 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-24 16:45:56 +0700
+
+
+Started GET "/new" for 127.0.0.1 at 2013-12-24 16:46:08 +0700
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (26.1ms)
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (58.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-24 16:50:13 +0700
+
+AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
+  actionpack (4.0.1) lib/abstract_controller/base.rb:131:in `process'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.1) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__4215094475441846223__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/rebelition/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/rebelition/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.1ms)
