@@ -5,9 +5,12 @@ Blog::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   resources :posts
-
   root 'welcome#index'
 
+  resources :posts do
+    resources :comments
+  end
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
@@ -29,11 +32,7 @@ Blog::Application.routes.draw do
   #     end
   #   end
 
-  # Example resource route with sub-resources:
-  #   resources :products do
-  #     resources :comments, :sales
-  #     resource :seller
-  #   end
+
 
   # Example resource route with more complex sub-resources:
   #   resources :products do
