@@ -1,20 +1,20 @@
-<h1>Listing posts</h1>
-<%= link_to "My Blog", controller: "posts" %>
- <%= link_to 'New post', new_post_path %>
- 
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Text</th>
-  </tr>
- 
+<ul>
   <% @posts.each do |post| %>
-    <tr>
-      <td><%= post.title %></td>
+    <li>
+      <h2><%= link_to post.title, post %></h2>
+      <br />
+      <span><%= pretty_date(post.created_at) %></span>
       <td><%= post.text %></td>
+    </li>
+  <% end %>
+</ul>
+
+<%
+=begin %>
+<%= link_to "My Blog", controller: "posts" %>
+<%= link_to 'New post', new_post_path %>
       <td><%= link_to 'Show', post %></td>
       <td><%= link_to 'Edit', edit_post_path(post) %></td>
       <td><%= link_to 'Destroy', post_path(post), method: :delete, data: { confirm: 'Are you sure?' } %></td>
-    </tr>
-  <% end %>
-</table>
+<%
+=end %>
