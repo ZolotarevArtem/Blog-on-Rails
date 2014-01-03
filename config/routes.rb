@@ -1,14 +1,12 @@
 Blog::Application.routes.draw do
   get "welcome/index"
-
-  resources :posts
   root 'welcome#index'
 
   resources :posts do
     resources :comments
   end
 
-  get '/register' => 'user#register'
+  get "/register" => "users#new"
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
