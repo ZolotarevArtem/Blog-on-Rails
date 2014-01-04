@@ -2,11 +2,3 @@
   <strong>Comment:</strong>
   <%= comment.body %>
 </p>
-
-<%
-=begin %>
-<p>
-  <%= link_to 'Destroy Comment', [comment.post, comment],
-               method: :delete,
-               data: { confirm: 'Are you sure?' } %>
-</p>

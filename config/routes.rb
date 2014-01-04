@@ -1,16 +1,9 @@
 Blog::Application.routes.draw do
-  get "welcome/index"
-  root 'welcome#index'
-
+  root 'posts#index'
 
   resources :posts do
     resources :comments
   end
-  
-  #resources :users, only: [:new, :create, :edit, :update] do
-  #  get "/sign_in" => "user#sign_in"
-  #  post "/sign_in" => "user#sign_in"
-  #end
 
   get "/register" => "users#new", as: :new_user
   post "/register" => "users#create"

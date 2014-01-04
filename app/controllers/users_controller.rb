@@ -22,7 +22,7 @@ class UsersController < ApplicationController
 	    session[:user] = @user
 	    redirect_to "/"  
 	  else 
-	    render "login"
+	    render "session_new"
 	  end
 	end
 

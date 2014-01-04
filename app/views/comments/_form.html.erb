@@ -1,4 +1,5 @@
 <%= form_for([@post, @post.comments.build]) do |f| %>
+	<%= f.hidden_field :user_id, value: session[:user][:id] %>
   <p>
     <%= f.label :body %><br>
     <%= f.text_area :body %>
