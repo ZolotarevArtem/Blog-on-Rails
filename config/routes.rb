@@ -2,12 +2,23 @@ Blog::Application.routes.draw do
   get "welcome/index"
   root 'welcome#index'
 
+
   resources :posts do
     resources :comments
   end
-
-  get "/register" => "users#new"
   
+  #resources :users, only: [:new, :create, :edit, :update] do
+  #  get "/sign_in" => "user#sign_in"
+  #  post "/sign_in" => "user#sign_in"
+  #end
+
+  get "/register" => "users#new", as: :new_user
+  post "/register" => "users#create"
+  get "/login" => "users#session_new", as: :session_new
+  post "/login" => "users#session_create"
+  get "/profile" => "users#show"
+  delete "/logout" => "users#destroy"
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
