@@ -19,14 +19,22 @@
     <nav class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <ul class="nav navbar-nav" id="login_box">
-            <li><a class="btn-login" href="/login"><button class="btn btn-primary" type="button">Войти</button></a><li>
-            <li><a class="btn-register" href="/register"><button class="btn btn-success" type="button">Регистрация</button></a><li>
-          </ul>          
+          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
           <a class="brand" href="/">Blog</a>
+          <div class="container nav-collapse">
+            <ul class="nav">
+              <li><%= link_to "Link1", "/path1"  %></li>
+              <li><%= link_to "Link2", "/path2"  %></li>
+              <li><%= link_to "Link3", "/path3"  %></li>
+            </ul>
+          </div><!--/.nav-collapse -->
         </div>
       </div>
-    </nav>
+    </div>
 
     <div class="container">
       <div class="row">
