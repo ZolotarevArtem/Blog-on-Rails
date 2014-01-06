@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::Base
+  
 	layout :resolve_layout
   protect_from_forgery with: :exception
 
