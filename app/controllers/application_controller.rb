@@ -1,7 +1,5 @@
 class ApplicationController < ActionController::Base
 	layout :resolve_layout
-  # Prevent CSRF attacks by raising an exception.
-  # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
   private
@@ -13,4 +11,9 @@ class ApplicationController < ActionController::Base
     	"user"
     end
   end
+
+  def login?
+    session[:user] != nil
+  end
+
 end

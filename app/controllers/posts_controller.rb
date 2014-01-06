@@ -1,5 +1,7 @@
 class PostsController < ApplicationController
+  before_action :ensure_permission, only: [:new, :create, :edit, :update, :destroy ]
   def new
+    @title = "Новый пост"
   	@post = Post.new
   end
 
@@ -38,11 +40,17 @@ class PostsController < ApplicationController
   	@post.destroy 
   	redirect_to posts_path
 	end
-
  
   private
 
   def post_params
     params.require(:post).permit(:title, :text, :user_id)
   end
+
+  def ensure_permission
+    unless login?
+      render :file => 'public/403.html', :status => :forbidden, :layout => false
+    end
+  end
+
 end

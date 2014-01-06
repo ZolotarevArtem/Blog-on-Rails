@@ -1,15 +1,16 @@
+<h1>Вход</h1><br />
 <%= form_for @user, url: session_new_path do |f| %>
   <p>
-    <%= f.label :name %><br>
+    <%= f.label :name, "Имя" %>
     <%= f.text_field :name %>
   </p>
 
   <p>
-    <%= f.label :password %><br>
-    <%= f.text_field :password %>
+    <%= f.label :password, "Пароль" %>
+    <%= f.password_field :password %>
   </p>
  
   <p>
-    <%= f.submit %>
+    <%= f.submit "Вход", class: "btn btn-primary" %>
   </p>
 <% end %>

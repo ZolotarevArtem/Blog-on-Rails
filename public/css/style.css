@@ -1,0 +1,43 @@
+#navbar-locate{
+	float: right;
+}
+
+.nav li{
+	margin: 7px 0 0 0;
+}
+
+.brand-locate{
+	margin: 7px 0 0 0;
+}
+
+.username{
+  font-size: 19px;  
+  margin: 5px 16px;  
+}
+
+.logout{
+	float: right;
+	margin: 7px 14px 0 0;
+}
+
+.container-locate{
+	margin: 80px 0 0 0;
+}
+
+.title{
+	font-size: 14px;
+}
+
+.comment{
+	font-size: 14px;
+}
+
+.btn-edit{
+  float: right;
+  margin: -40px 125px 0 0;
+}
+
+.btn-delete{
+  float: right;
+  margin: -40px 23px 0 0;
+}

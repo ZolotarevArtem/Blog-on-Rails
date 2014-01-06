@@ -1,25 +1,26 @@
+<h1>Регистрация</h1><br />
 <%= form_for @user, url: new_user_path do |f| %>
   <p>
-    <%= f.label :name %><br>
+    <%= f.label :name, "Имя" %>
     <%= f.text_field :name %>
   </p>
  
   <p>
-    <%= f.label :email %><br>
+    <%= f.label :email, "Адрес" %>
     <%= f.text_field :email %>
   </p>
 
   <p>
-    <%= f.label :password %><br>
-    <%= f.text_field :password %>
+    <%= f.label :password, "Пароль" %>
+    <%= f.password_field :password %>
   </p>
 
   <p>
-    <%= f.label :password_confirmation %><br>
-    <%= f.text_field :password_confirmation %>
+    <%= f.label :password_confirmation, "Повторите пароль" %>
+    <%= f.password_field :password_confirmation %>
   </p>
  
   <p>
-    <%= f.submit %>
+    <%= f.submit "Регистрация", class: "btn btn-primary" %>
   </p>
 <% end %>

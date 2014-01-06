@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= content_for?(:title) ? yield(:title) : "Blog" %></title>
+    <title><%= content_for?(:title) ? yield(:title) : "Блог" %></title>
+    <link href="/css/style.css" rel="stylesheet">
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag "application", :media => "all" %>
     <%= favicon_link_tag 'apple-touch-icon-144x144-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '144x144' %>
@@ -16,19 +17,19 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
+    <nav class="navbar navbar-inner navbar-fixed-top">      
         <div class="container">
-          <ul class="nav navbar-nav" id="login_box">
-            <li><a class="btn-login" href="/login"><button class="btn btn-primary" type="button">Войти</button></a><li>
-            <li><a class="btn-register" href="/register"><button class="btn btn-success" type="button">Регистрация</button></a><li>
-          </ul>          
-          <a class="brand" href="/">Blog</a>
-        </div>
-      </div>
+          <a class="brand brand-locate" href="/">На главную</a>
+          <div class="container nav-collapse">
+            <ul class="nav navbar-nav" id="navbar-locate">
+              <li><a class="btn-login" href="/login"><button class="btn btn-primary" type="button">Войти</button></a><li>
+              <li><a class="btn-register" href="/register"><button class="btn btn-success" type="button">Регистрация</button></a><li>
+            </ul> 
+          </div><!--/.nav-collapse -->
+        </div>      
     </nav>
 
-    <div class="container">
+    <div class="container container-locate">
       <div class="row">
         <div class="span11">            
           <%= bootstrap_flash %>
@@ -44,3 +45,7 @@
 
   </body>
 </html>
+
+
+
+

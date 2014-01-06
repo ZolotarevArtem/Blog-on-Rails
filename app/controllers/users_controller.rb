@@ -1,4 +1,4 @@
-class UsersController < ApplicationController  
+class UsersController < ApplicationController    
   def new
   	@user = User.new
   end
@@ -21,8 +21,8 @@ class UsersController < ApplicationController
 	  if @user && @user.auth(params[:user][:password])
 	    session[:user] = @user
 	    redirect_to "/"  
-	  else 
-	    render "session_new"
+	  else
+	    redirect_to "/login"
 	  end
 	end
 
@@ -30,7 +30,6 @@ class UsersController < ApplicationController
 		session[:user] = nil
 		redirect_to "/"
 	end
-
 
   private
 

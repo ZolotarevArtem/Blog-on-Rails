@@ -1,18 +1,21 @@
-<p>
-  <strong>Title:</strong>
-  <%= @post.title %>
-</p>
- 
-<p>
-  <strong>Text:</strong>
-  <%= @post.text %>
-</p>
-
-<h2>Comments</h2>
+<p><h3><%= @post.title %></h3></p>
+<p class="lead">Автор: <%= @post.user.name %></p>
+<hr>
+<p><span class="glyphicon glyphicon-time"></span><%= pretty_date(@post.created_at) %></p>
+<% if session[:user] && session[:user][:id] == @post.user_id %>
+  <a class="btn btn-warning btn-edit" href="/posts/<%= @post.id %>/edit">Редактировать</a>
+  <%= link_to 'Удалить', post_path(@post), class: "btn btn-danger btn-delete", method: :delete, data: {confirm: 'Вы уверены?'} %>
+<% end %>
+<hr>
+<p><%= @post.text %></p>
+<% if session[:user] %>
+<hr>
+<h4>Оставить комментарий:</h4>
+<%= render "comments/form" %>
+<% end %>
+<hr>
+<h4>Комментарии к посту:</h4><br />
 <%= render @post.comments %>
 
-<h2>Add a comment:</h2>
-<%= render "comments/form" %>
-
-<%= link_to 'Back', posts_path %>
+<%= link_to 'Назад', posts_path %>
 <%= link_to 'Edit', edit_post_path(@post) %>

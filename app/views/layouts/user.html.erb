@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= content_for?(:title) ? yield(:title) : "Blog" %></title>
+    <title><%= content_for?(:title) ? yield(:title) : "Блог" %></title>
+    <link href="/css/style.css" rel="stylesheet">
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag "application", :media => "all" %>
     <%= favicon_link_tag 'apple-touch-icon-144x144-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '144x144' %>
@@ -16,27 +17,23 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
+    <nav class="navbar navbar-inner navbar-fixed-top">
         <div class="container">
-          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="/">Blog</a>
+          <a class="brand brand-locate" href="/">На главную</a>
           <div class="container nav-collapse">
             <ul class="nav">
-              <li><%= link_to "Link1", "/path1"  %></li>
-              <li><%= link_to "Link2", "/path2"  %></li>
-              <li><%= link_to "Link3", "/path3"  %></li>
+              <li><%= link_to "Написать пост", "/posts/new"  %></li>
+              <li><%= link_to "Личный кабинет", "/profile"  %></li>
             </ul>
+            <ul class="nav navbar-nav" id="navbar-locate">              
+              <li class="username"><a class="user" href="/profile">Привет, <%= session[:user][:name] %></a></li>    
+              <li class="logout"><%= button_to 'Выйти', logout_path, method: :delete, class: "btn btn-warning btn-locate"%></li>         
+            </ul> 
           </div><!--/.nav-collapse -->
         </div>
-      </div>
-    </div>
+    </nav>
 
-    <div class="container">
+    <div class="container container-locate">
       <div class="row">
         <div class="span11">            
           <%= bootstrap_flash %>

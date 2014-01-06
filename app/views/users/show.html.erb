@@ -1,2 +1,3 @@
-<p>Ваше имя: <%= session[:user][:name] %></p>
+<h1>Личный кабинет</h1><br />
+<h4>Вы вошли как, <%= session[:user][:name] %></h4>
 <%= link_to 'Выйти', logout_path, method: :delete %>

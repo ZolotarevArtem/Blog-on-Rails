@@ -9,9 +9,6 @@ class User < ActiveRecord::Base
 	has_many :post
   has_many :comment
 
-	has_many :post
-  has_many :comment
-
   def auth(pass)
     self.password == hash(pass)
   end

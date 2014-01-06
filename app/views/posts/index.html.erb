@@ -1,11 +1,11 @@
-<ul>
+<ul type="none">
   <% @posts.each do |post| %>
     <li>
-      <h2><%= link_to post.title, post %></h2>
-      <br />
+      <h3><%= link_to post.title, post %></h3>
       <span><%= pretty_date(post.created_at) %></span>
-      <td><%= post.text %></td>
+      <td><%= post.text.truncate(300) %></td>
     </li>
+    <hr>
   <% end %>
 </ul>
 
