@@ -1,4 +1,12 @@
 <table class="table-striped">
-	<b><%= comment.user %></b><br />
-	<%= comment.body %><hr>
+<%
+=begin %>
+	<b><%= comment.user.name %></b><br />
+<%
+=end %>
+	<%= comment.body %>
+	<% if session[:user] && session[:user][:id] == @post.user.id %>
+		<%= link_to 'Удалить', [comment.post, comment], method: :delete, data: { confirm: 'Вы уверены?' } %>
+	<% end %>
+	<hr>
 </table> 

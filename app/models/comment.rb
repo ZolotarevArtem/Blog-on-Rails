@@ -1,5 +1,5 @@
 class Comment < ActiveRecord::Base
-	validates :body, presence: true, length: { minimum: 3 }
+	validates :body, presence: true
 	
   belongs_to :user
   belongs_to :post

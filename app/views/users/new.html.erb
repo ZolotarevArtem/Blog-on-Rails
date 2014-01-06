@@ -1,5 +1,16 @@
 <h1>Регистрация</h1><br />
 <%= form_for @user, url: new_user_path do |f| %>
+  <% if @user.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@user.errors.count, "error") %> prohibited
+      this post from being saved:</h2>
+    <ul>
+    <% @user.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+  <% end %>
   <p>
     <%= f.label :name, "Имя" %>
     <%= f.text_field :name %>

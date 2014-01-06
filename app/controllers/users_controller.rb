@@ -22,6 +22,7 @@ class UsersController < ApplicationController
 	    session[:user] = @user
 	    redirect_to "/"  
 	  else
+      flash[:login] = "Вы ввели неверное имя пользователя или пароль"
 	    redirect_to "/login"
 	  end
 	end
