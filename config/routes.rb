@@ -1,16 +1,20 @@
 Blog::Application.routes.draw do
+  devise_for :users
+  get "persons/profile"
   root 'posts#index'
 
   resources :posts do
     resources :comments
   end
 
-  get "/register" => "users#new", as: :new_user
-  post "/register" => "users#create"
-  get "/login" => "users#session_new", as: :session_new
-  post "/login" => "users#session_create"
-  get "/profile" => "users#show"
-  delete "/logout" => "users#destroy"
+  get 'persons/profile', as: 'user_root'
+
+  #get "/register" => "users#new", as: :new_user
+  #post "/register" => "users#create"
+  #get "/login" => "users#session_new", as: :session_new
+  #post "/login" => "users#session_create"
+  #get "/profile" => "users#show"
+  #delete "/logout" => "users#destroy"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -32,8 +36,6 @@ Blog::Application.routes.draw do
   #       get 'sold'
   #     end
   #   end
-
-
 
   # Example resource route with more complex sub-resources:
   #   resources :products do

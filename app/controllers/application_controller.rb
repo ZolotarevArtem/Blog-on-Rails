@@ -6,15 +6,11 @@ class ApplicationController < ActionController::Base
   private
 
   def resolve_layout
-    if session[:user] == nil
-    	"application"
-    else
+    if user_signed_in?
     	"user"
+    else
+    	"application"
     end
   end
-
-  def login?
-    session[:user] != nil
-  end
-
+  
 end

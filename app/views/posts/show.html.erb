@@ -1,5 +1,4 @@
 <p><h3><%= @post.title %></h3></p>
-<p class="lead">Автор: <%= @post.user.name %></p>
 <hr>
 <p><span class="glyphicon glyphicon-time"></span><%= pretty_date(@post.created_at) %></p>
 <% if session[:user] && session[:user][:id] == @post.user_id %>

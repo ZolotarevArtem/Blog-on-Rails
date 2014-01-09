@@ -22,8 +22,8 @@
           <a class="brand brand-locate" href="/">На главную</a>
           <div class="container nav-collapse">
             <ul class="nav navbar-nav" id="navbar-locate">
-              <li><a class="btn-login" href="/login"><button class="btn btn-primary" type="button">Войти</button></a><li>
-              <li><a class="btn-register" href="/register"><button class="btn btn-success" type="button">Регистрация</button></a><li>
+              <li><%= button_to 'Войти', new_user_session_path, class: "btn btn-primary btn-log" %><li>
+              <li><%= button_to 'Регистрация', new_user_registration_path, class: "btn btn-success", method: "get" %><li>  
             </ul> 
           </div><!--/.nav-collapse -->
         </div>      
